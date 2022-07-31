@@ -1,0 +1,80 @@
+body{
+    margin: none;
+    background-color: rgba(229, 238, 224, 0.465);
+}
+header{
+    background-color: rgb(237, 200, 200);
+    background-size: 40%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align : center;
+text-shadow: 2px 1px 1px rgb(58, 31, 31);
+padding:30px;
+
+
+}
+h2{
+    color: bisque;
+    background-size: 40%;
+font-family: 'Arial Narrow', Arial;
+text-align : center;
+text-shadow: 2px 1px 1px rgb(58, 31, 31);
+padding:30px;
+}
+nav{
+    display: flex;
+    background-color: rgb(7, 7, 8);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+
+   
+  
+}
+
+nav a{
+    padding: 20px;
+    color: rgb(250, 240, 240);
+text-align: center;
+    
+    
+}
+a:hover{
+    background-color: rgb(154, 154, 222);
+color: white;
+}
+footer{
+    background-color: rgba(152, 150, 147, 0.496);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align:center;
+    overflow: hidden;
+  
+}
+footer a{
+    padding: 10px;
+    color: rgb(14, 1, 1);
+    float: left;
+    
+}
+img{
+    border: 1px solid green;
+    padding: 2px 0px; 
+   
+}
+.log{
+    margin-left: auto;
+}
+
+section h2 span{
+    padding: 10px 55px;
+    background: rgb(2,0,36);
+    border-radius: 10px;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(173,173,227,1) 47%, rgba(0,212,255,1) 100%);
+}
+@media screen and (max-width:600px) {
+    nav{
+        flex-direction: column;
+    
+    }
+.log{
+    margin-left: 0%;
+}
+}
